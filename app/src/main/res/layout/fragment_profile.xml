@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_me"
+                android:src="@drawable/alfariza"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_fiki"
+                android:src="@drawable/fikisyihab"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Profile"
+            android:textSize="36dp"
+            />
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="30dp"
+            android:text="Alfa"/>
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="24dp"
+            android:text="Nama lengkapnya M.Alfa Riza, namun sering dipanggil pakde, mungkin karena mukanya boros dan cara nya berperilaku seperti orang tua"/>
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="30dp"
+            android:text="Fiki"/>
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="24dp"
+            android:text="Nama Lengkapnya Fiki Syihab, yaaa anda tidak salah dengar Syihab, teori konspirasi mengatakan bahwa fiki ini merupakan anak dari Najwa Syihab, Syihab dan Syihab, Hmmm sadis"/>
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="30dp"
+            android:text="Quote"/>
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="24dp"
+            android:text="'Tetaplah hidup meskipun tidak berguna'"/>
+
+    </LinearLayout>
+
+</FrameLayout>

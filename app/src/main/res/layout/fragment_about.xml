@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/konten"
+    tools:context=".view.fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <ImageView
+            android:src="@drawable/comp_email"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"/>
+        <TextView
+            android:paddingTop="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:textSize="36dp"
+            />
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:textSize="24dp"
+            android:text="Aplikasi ini merupakan aplikasi untuk menghunungi seseorang melalui email yang kontaknya didapat dari pihak ketiga, sehingga kita tidak perlu menyimpan, meminta alamat email sehingga lebih efektif dalam kehidupan sehari hari"/>
+
+
+        <Button
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_prof"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFC107"
+            android:textColor="#FDFDFD"
+            android:text="Profile Author"
+            >
+
+        </Button>
+    </LinearLayout>
+
+</FrameLayout>

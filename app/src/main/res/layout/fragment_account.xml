@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.AccountFragment">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_main_nama"
+            android:layout_width="120dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="bottom"
+            android:text="Nama"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_main_nama"
+            android:hint="Nama"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tv_main_email"
+            android:layout_width="120dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="bottom"
+            android:text="Email"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_main_nama"
+            android:layout_toRightOf="@id/tv_main_email"
+            android:textSize="21sp"
+            android:hint="Email"
+            />
+
+
+        <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_submit"
+            android:background="#FFC107"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Submit" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragmentaccount_rv"
+            android:layout_margin="4dp"
+            android:background="#91FFEB3B"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btn_submit"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

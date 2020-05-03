@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_bottomnav_email"
+        android:title="Contact"
+        android:icon="@drawable/email"
+        app:showAsAction="ifRoom"
+        android:iconTint="#FFC107"
+        />
+
+    <item
+        android:iconTint="#FFC107"
+        android:id="@+id/menu_bottomnav_account"
+        android:title="Person"
+        android:icon="@drawable/account"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:iconTint="#FFC107"
+        android:id="@+id/menu_bottomnav_about"
+        android:title="About"
+        android:icon="@drawable/info"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
